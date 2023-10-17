@@ -10,7 +10,7 @@ const app = express();
 
 app.use(cors(
     {
-        origin:[""],
+        origin:["https://file-sharing-frontend-gray.vercel.app/"],
         methods:["POST","GET"],
         credentials:true
     }
